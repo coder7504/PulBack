@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07B216345C69D4CE89ECAD5A /* Pods_Pulback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA51F9EFE60E7228B273AD8 /* Pods_Pulback.framework */; };
+		6347854926B2973C0033D8ED /* GestureExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347854826B2973C0033D8ED /* GestureExtention.swift */; };
 		63C8703D26B26C3A00DCAB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8703C26B26C3A00DCAB42 /* AppDelegate.swift */; };
-		63C8703F26B26C3A00DCAB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8703E26B26C3A00DCAB42 /* SceneDelegate.swift */; };
-		63C8704126B26C3A00DCAB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8704026B26C3A00DCAB42 /* ViewController.swift */; };
-		63C8704426B26C3A00DCAB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8704226B26C3A00DCAB42 /* Main.storyboard */; };
-		63C8704626B26C3B00DCAB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C8704526B26C3B00DCAB42 /* Assets.xcassets */; };
 		63C8704926B26C3B00DCAB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8704726B26C3B00DCAB42 /* LaunchScreen.storyboard */; };
+		63C8705926B26E9700DCAB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C8704526B26C3B00DCAB42 /* Assets.xcassets */; };
+		63C8705D26B26F3C00DCAB42 /* EntrenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8705B26B26F3C00DCAB42 /* EntrenceViewController.swift */; };
+		63C8705E26B26F3C00DCAB42 /* EntrenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C8705C26B26F3C00DCAB42 /* EntrenceViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16DEE0AAC1E937BEEADEDE28 /* Pods-Pulback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulback.debug.xcconfig"; path = "Target Support Files/Pods-Pulback/Pods-Pulback.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA51F9EFE60E7228B273AD8 /* Pods_Pulback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pulback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6347854826B2973C0033D8ED /* GestureExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureExtention.swift; sourceTree = "<group>"; };
 		63C8703926B26C3A00DCAB42 /* Pulback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C8703C26B26C3A00DCAB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63C8703E26B26C3A00DCAB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63C8704026B26C3A00DCAB42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63C8704326B26C3A00DCAB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63C8704526B26C3B00DCAB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63C8704826B26C3B00DCAB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63C8704A26B26C3B00DCAB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63C8705B26B26F3C00DCAB42 /* EntrenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrenceViewController.swift; sourceTree = "<group>"; };
+		63C8705C26B26F3C00DCAB42 /* EntrenceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntrenceViewController.xib; sourceTree = "<group>"; };
+		D1941D72A31BC2141F9F6FC9 /* Pods-Pulback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulback.release.xcconfig"; path = "Target Support Files/Pods-Pulback/Pods-Pulback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07B216345C69D4CE89ECAD5A /* Pods_Pulback.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		382398466914A26C8E45D66A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AA51F9EFE60E7228B273AD8 /* Pods_Pulback.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		63C8703026B26C3A00DCAB42 = {
 			isa = PBXGroup;
 			children = (
 				63C8703B26B26C3A00DCAB42 /* Pulback */,
 				63C8703A26B26C3A00DCAB42 /* Products */,
+				EC507356BB70FE238B5FAEA5 /* Pods */,
+				382398466914A26C8E45D66A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,64 @@
 		63C8703B26B26C3A00DCAB42 /* Pulback */ = {
 			isa = PBXGroup;
 			children = (
-				63C8703C26B26C3A00DCAB42 /* AppDelegate.swift */,
-				63C8703E26B26C3A00DCAB42 /* SceneDelegate.swift */,
-				63C8704026B26C3A00DCAB42 /* ViewController.swift */,
-				63C8704226B26C3A00DCAB42 /* Main.storyboard */,
+				63C8705426B26D4D00DCAB42 /* Model */,
+				63C8705326B26D4300DCAB42 /* View */,
+				63C8705226B26D3700DCAB42 /* Controller */,
 				63C8704526B26C3B00DCAB42 /* Assets.xcassets */,
 				63C8704726B26C3B00DCAB42 /* LaunchScreen.storyboard */,
 				63C8704A26B26C3B00DCAB42 /* Info.plist */,
 			);
 			path = Pulback;
+			sourceTree = "<group>";
+		};
+		63C8705226B26D3700DCAB42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63C8705626B26D8B00DCAB42 /* EntrenceVC */,
+				63C8705526B26D5900DCAB42 /* MainController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63C8705326B26D4300DCAB42 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63C8705426B26D4D00DCAB42 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6347854826B2973C0033D8ED /* GestureExtention.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63C8705526B26D5900DCAB42 /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				63C8703C26B26C3A00DCAB42 /* AppDelegate.swift */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		63C8705626B26D8B00DCAB42 /* EntrenceVC */ = {
+			isa = PBXGroup;
+			children = (
+				63C8705B26B26F3C00DCAB42 /* EntrenceViewController.swift */,
+				63C8705C26B26F3C00DCAB42 /* EntrenceViewController.xib */,
+			);
+			path = EntrenceVC;
+			sourceTree = "<group>";
+		};
+		EC507356BB70FE238B5FAEA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16DEE0AAC1E937BEEADEDE28 /* Pods-Pulback.debug.xcconfig */,
+				D1941D72A31BC2141F9F6FC9 /* Pods-Pulback.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63C8704D26B26C3B00DCAB42 /* Build configuration list for PBXNativeTarget "Pulback" */;
 			buildPhases = (
+				F7D3732D28842EB55CF4D53C /* [CP] Check Pods Manifest.lock */,
 				63C8703526B26C3A00DCAB42 /* Sources */,
 				63C8703626B26C3A00DCAB42 /* Frameworks */,
 				63C8703726B26C3A00DCAB42 /* Resources */,
+				EE518DD12F60338261C726BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +190,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C8705E26B26F3C00DCAB42 /* EntrenceViewController.xib in Resources */,
+				63C8705926B26E9700DCAB42 /* Assets.xcassets in Resources */,
 				63C8704926B26C3B00DCAB42 /* LaunchScreen.storyboard in Resources */,
-				63C8704626B26C3B00DCAB42 /* Assets.xcassets in Resources */,
-				63C8704426B26C3A00DCAB42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE518DD12F60338261C726BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pulback/Pods-Pulback-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pulback/Pods-Pulback-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pulback/Pods-Pulback-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D3732D28842EB55CF4D53C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pulback-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		63C8703526B26C3A00DCAB42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63C8704126B26C3A00DCAB42 /* ViewController.swift in Sources */,
+				63C8705D26B26F3C00DCAB42 /* EntrenceViewController.swift in Sources */,
+				6347854926B2973C0033D8ED /* GestureExtention.swift in Sources */,
 				63C8703D26B26C3A00DCAB42 /* AppDelegate.swift in Sources */,
-				63C8703F26B26C3A00DCAB42 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63C8704226B26C3A00DCAB42 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63C8704326B26C3A00DCAB42 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		63C8704726B26C3B00DCAB42 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +383,7 @@
 		};
 		63C8704E26B26C3B00DCAB42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16DEE0AAC1E937BEEADEDE28 /* Pods-Pulback.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +403,7 @@
 		};
 		63C8704F26B26C3B00DCAB42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1941D72A31BC2141F9F6FC9 /* Pods-Pulback.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
