@@ -30,6 +30,11 @@ class EntrenceViewController: UIViewController {
         
     }
 
+    @IBAction func enterenceBtnTapped(_ sender: Any) {
+        let vc = RegistrationViewController(nibName: "RegistrationViewController", bundle: nil)
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
 
     func setTextField(){
         navigationController?.navigationBar.isHidden = true

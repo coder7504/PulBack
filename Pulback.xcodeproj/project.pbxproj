@@ -8,18 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		07B216345C69D4CE89ECAD5A /* Pods_Pulback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA51F9EFE60E7228B273AD8 /* Pods_Pulback.framework */; };
+		630FDDFC26B4714B00D72D42 /* OTPClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FDDFB26B4714B00D72D42 /* OTPClass.swift */; };
+		630FDDFE26B4A15500D72D42 /* CircleProgressBarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630FDDFD26B4A15500D72D42 /* CircleProgressBarClass.swift */; };
 		6347854926B2973C0033D8ED /* GestureExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347854826B2973C0033D8ED /* GestureExtention.swift */; };
+		6347854E26B320B50033D8ED /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347854C26B320B50033D8ED /* RegistrationViewController.swift */; };
+		6347854F26B320B50033D8ED /* RegistrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6347854D26B320B50033D8ED /* RegistrationViewController.xib */; };
+		6347855326B322A70033D8ED /* RedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347855226B322A70033D8ED /* RedButton.swift */; };
+		6347855626B323A30033D8ED /* StaticVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347855526B323A30033D8ED /* StaticVariables.swift */; };
 		63C8703D26B26C3A00DCAB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8703C26B26C3A00DCAB42 /* AppDelegate.swift */; };
 		63C8704926B26C3B00DCAB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C8704726B26C3B00DCAB42 /* LaunchScreen.storyboard */; };
 		63C8705926B26E9700DCAB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63C8704526B26C3B00DCAB42 /* Assets.xcassets */; };
 		63C8705D26B26F3C00DCAB42 /* EntrenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C8705B26B26F3C00DCAB42 /* EntrenceViewController.swift */; };
 		63C8705E26B26F3C00DCAB42 /* EntrenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63C8705C26B26F3C00DCAB42 /* EntrenceViewController.xib */; };
+		63DD071B26B4655200B05406 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DD071926B4655200B05406 /* OTPViewController.swift */; };
+		63DD071C26B4655200B05406 /* OTPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63DD071A26B4655200B05406 /* OTPViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16DEE0AAC1E937BEEADEDE28 /* Pods-Pulback.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulback.debug.xcconfig"; path = "Target Support Files/Pods-Pulback/Pods-Pulback.debug.xcconfig"; sourceTree = "<group>"; };
 		5AA51F9EFE60E7228B273AD8 /* Pods_Pulback.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pulback.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630FDDFB26B4714B00D72D42 /* OTPClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPClass.swift; sourceTree = "<group>"; };
+		630FDDFD26B4A15500D72D42 /* CircleProgressBarClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressBarClass.swift; sourceTree = "<group>"; };
 		6347854826B2973C0033D8ED /* GestureExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureExtention.swift; sourceTree = "<group>"; };
+		6347854C26B320B50033D8ED /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		6347854D26B320B50033D8ED /* RegistrationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistrationViewController.xib; sourceTree = "<group>"; };
+		6347855226B322A70033D8ED /* RedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedButton.swift; sourceTree = "<group>"; };
+		6347855526B323A30033D8ED /* StaticVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticVariables.swift; sourceTree = "<group>"; };
 		63C8703926B26C3A00DCAB42 /* Pulback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C8703C26B26C3A00DCAB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C8704526B26C3B00DCAB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -27,6 +41,8 @@
 		63C8704A26B26C3B00DCAB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63C8705B26B26F3C00DCAB42 /* EntrenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrenceViewController.swift; sourceTree = "<group>"; };
 		63C8705C26B26F3C00DCAB42 /* EntrenceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EntrenceViewController.xib; sourceTree = "<group>"; };
+		63DD071926B4655200B05406 /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		63DD071A26B4655200B05406 /* OTPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTPViewController.xib; sourceTree = "<group>"; };
 		D1941D72A31BC2141F9F6FC9 /* Pods-Pulback.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulback.release.xcconfig"; path = "Target Support Files/Pods-Pulback/Pods-Pulback.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,6 +66,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6347854B26B320680033D8ED /* RegistrationVC */ = {
+			isa = PBXGroup;
+			children = (
+				6347854C26B320B50033D8ED /* RegistrationViewController.swift */,
+				6347854D26B320B50033D8ED /* RegistrationViewController.xib */,
+			);
+			path = RegistrationVC;
+			sourceTree = "<group>";
+		};
+		6347855126B322960033D8ED /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6347855226B322A70033D8ED /* RedButton.swift */,
+				6347855526B323A30033D8ED /* StaticVariables.swift */,
+				630FDDFB26B4714B00D72D42 /* OTPClass.swift */,
+				630FDDFD26B4A15500D72D42 /* CircleProgressBarClass.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		63C8703026B26C3A00DCAB42 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +107,7 @@
 		63C8703B26B26C3A00DCAB42 /* Pulback */ = {
 			isa = PBXGroup;
 			children = (
+				6347855126B322960033D8ED /* Helper */,
 				63C8705426B26D4D00DCAB42 /* Model */,
 				63C8705326B26D4300DCAB42 /* View */,
 				63C8705226B26D3700DCAB42 /* Controller */,
@@ -84,6 +121,8 @@
 		63C8705226B26D3700DCAB42 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				63DD071826B4652F00B05406 /* OTPVC */,
+				6347854B26B320680033D8ED /* RegistrationVC */,
 				63C8705626B26D8B00DCAB42 /* EntrenceVC */,
 				63C8705526B26D5900DCAB42 /* MainController */,
 			);
@@ -120,6 +159,15 @@
 				63C8705C26B26F3C00DCAB42 /* EntrenceViewController.xib */,
 			);
 			path = EntrenceVC;
+			sourceTree = "<group>";
+		};
+		63DD071826B4652F00B05406 /* OTPVC */ = {
+			isa = PBXGroup;
+			children = (
+				63DD071926B4655200B05406 /* OTPViewController.swift */,
+				63DD071A26B4655200B05406 /* OTPViewController.xib */,
+			);
+			path = OTPVC;
 			sourceTree = "<group>";
 		};
 		EC507356BB70FE238B5FAEA5 /* Pods */ = {
@@ -191,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63C8705E26B26F3C00DCAB42 /* EntrenceViewController.xib in Resources */,
+				6347854F26B320B50033D8ED /* RegistrationViewController.xib in Resources */,
 				63C8705926B26E9700DCAB42 /* Assets.xcassets in Resources */,
 				63C8704926B26C3B00DCAB42 /* LaunchScreen.storyboard in Resources */,
+				63DD071C26B4655200B05406 /* OTPViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +297,12 @@
 			files = (
 				63C8705D26B26F3C00DCAB42 /* EntrenceViewController.swift in Sources */,
 				6347854926B2973C0033D8ED /* GestureExtention.swift in Sources */,
+				630FDDFC26B4714B00D72D42 /* OTPClass.swift in Sources */,
+				6347854E26B320B50033D8ED /* RegistrationViewController.swift in Sources */,
+				6347855626B323A30033D8ED /* StaticVariables.swift in Sources */,
+				6347855326B322A70033D8ED /* RedButton.swift in Sources */,
+				630FDDFE26B4A15500D72D42 /* CircleProgressBarClass.swift in Sources */,
+				63DD071B26B4655200B05406 /* OTPViewController.swift in Sources */,
 				63C8703D26B26C3A00DCAB42 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
